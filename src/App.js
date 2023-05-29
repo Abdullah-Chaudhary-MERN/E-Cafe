@@ -1,13 +1,11 @@
-import './index.css';
-import React from 'react';
-import "bootstrap/dist/css/bootstrap.css";
-import Routing from './components/routes/Routing';
-function App() {
+import React from "react";
+// import Cart from "./Cart";
+import AboutUs from "./AboutUs";
+export default function App() {
   return (
-    <div>
-        <Routing/>
-    </div>
-  );
+    <>
+        {/* <Cart /> */}
+        <AboutUs />
+    </>
+  )
 }
-
-export default App;
