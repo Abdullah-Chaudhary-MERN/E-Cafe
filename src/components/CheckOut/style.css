@@ -48,15 +48,19 @@ body {
     
 }
   
-  .about-section {
+  .about-section{
 	padding: 50px;
 	text-align: center;
 	background-color: #474e5d;
 	color: white;
   }
+  .top{
+	margin-top: 150px;
+  }
   
   .container {
 	padding: 0 16px;
+	
 	
   }
 
@@ -64,6 +68,7 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 40px;
+	background-color: #474e5d;
   }
   
   .container::after, .row::after {

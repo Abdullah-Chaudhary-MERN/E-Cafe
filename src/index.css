@@ -357,11 +357,12 @@ h6 {
 .form-group{
   margin-top: 10px;
   padding: 10px;
-  /* border: 1px solid black; */
 }
 .btn{
   background-color: rgb(109,109,107) !important;
-  float: right;
+  float: right !important;
+  border: 2px solid rgb(205,164,94) !important;
+  border-radius: 50px !important;
 }
 .btn:hover{
   background-color: rgb(205,164,94) !important;
@@ -520,6 +521,19 @@ body {
   
   .nav__item--extra {
     flex-grow: 2;
+  }
+  .section-with-background{
+    background-color: #7a7a79 !important;
+  }
+  .bread{
+    margin-top: 150px  !important;
+  }
+  .backimg{
+    background-image: url("../src/assets/img/gallery/gallery-5.jpg") !important;
+    /* width: 1000px !important;
+    height: 300px !important; */
+    background-size: cover !important;
+    background-position: center !important;
   }
   
   .footer__addr {

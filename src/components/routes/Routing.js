@@ -1,23 +1,23 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import Home from '../activity/Home/Home'
-// import Index from '../activity/NavBar/index'
-// import contactUs from '../activity/contactUs/contactUs'
-// import register from '../activity/Register/register'
 import NavBar from '../NavBar/NavBar'
-// import NavBar from '../Admin/NavBarA'
 import Header from '../Header/Header'
+import Home from "../Home/index"
+import Cart from "../CheckOut/Cart"
 import Reservation from '../Reservation/Reservation';
-
+import AboutUs from "../AboutUs/AboutUs"
 
 export default function Routing() {
   return (
     <div>
       <BrowserRouter>
+      <Header/>
       <NavBar/>
         <Routes>
-            <Route exact path={'/'} Component = {Header} />
+            <Route exact path={'/'} Component = {Home} />
             <Route exact path={'/Reservation'} Component={Reservation}/>
+            <Route exact path={'/Cart'} Component={Cart}/>
+            <Route exact path={'/AboutUs'} Component={AboutUs}/>
 
         </Routes>
       </BrowserRouter>

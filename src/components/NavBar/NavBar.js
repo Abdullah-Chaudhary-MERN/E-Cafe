@@ -3,6 +3,7 @@ import logo from "../../assets/img/hLogo.png";
 import "../NavBar/navbar.css";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import AboutUs from "../AboutUs/AboutUs"
 
 export default function NavBar() {
   const [isOpen, setisOpen] = useState(false);
@@ -29,9 +30,9 @@ export default function NavBar() {
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#menu">
+                <Link to = "/AboutUs" className="nav-link scrollto" href="#menu">
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 <a className="nav-link scrollto" href="#contact">

@@ -1,7 +1,6 @@
 import React from 'react';
-
-import bagg from './Asset/bag.jpg';
-import style from "./style.css";
+// import bagg from './Asset/bag.jpg';
+import "./style.css";
 export default function Cart() {
   return (
     <>
@@ -29,7 +28,7 @@ export default function Cart() {
           <tbody>
             <tr>
               <td className="product-col">
-                <img src={bagg}  />
+                {/* <img src={bagg}  /> */}
                 <div className="pc-title">
                   <h4>Black Shoulder Bag</h4>
                   <a href="#">Edit Product</a>

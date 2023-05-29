@@ -1,7 +1,8 @@
 import React from "react";
-import Image from "../../assets/img/reservation-Background.jpg";
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
+
+import Image from "../../assets/img/ReservationBack.jpg";
 
 export default function Reservation() {
   return (
@@ -13,12 +14,13 @@ export default function Reservation() {
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-end justify-content-center">
-            <div class="col-md-9 ftco-animate text-center mb-4">
+            <div class="col-md-9  text-center mb-4">
+              <div className="backimg"></div>
               <h1 class="mb-2 bread">Book a Table</h1>
               <p class="breadcrumbs">
                 <span class="mr-2">
                   <Link
-                   to="/"
+                    to="/"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Home
@@ -128,13 +130,12 @@ export default function Reservation() {
                       </div>
                     </div>
                   </div>
-
                   <div className="col-md-12 mt-3">
                     <div className="form-group">
                       <input
                         type="submit"
                         value="Make a Reservation"
-                        className="btn btn-primary py-3 px-5 btn"
+                        className="btn btn-primary py-3 px-5 btn bg-dark"
                       />
                     </div>
                   </div>

@@ -1,7 +1,4 @@
 import React from 'react'
-import HeroSection from '../HeroSection/HeroSection'
-import Event from '../Event/Event'
-import Footer from '../Footer/Footer'
 // import CheckOut from "../CheckOut/CheckOut"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faMobile } from '@fortawesome/free-solid-svg-icons';
@@ -24,9 +21,6 @@ export default function Header() {
       </div>
     </div>
   </div>
-  <HeroSection/>
-  <Event/>
-  <Footer/>
   </div>
     </div>
     

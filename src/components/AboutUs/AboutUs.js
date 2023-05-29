@@ -1,11 +1,12 @@
 import React from "react";
+import "../CheckOut/style.css";
 
 export default function AboutUs() {
   return (
     <>
       <div>
         <div className="about-section">
-          <h1>About Us Page</h1>
+          <h1 className="top">About Us Page</h1>
           <p>who we are and what we do.</p>
         </div>
         <div class="container2">
@@ -50,7 +51,7 @@ export default function AboutUs() {
             let us take you on a culinary journey you won't soon forget.
           </p>
         </div>
-        <h2 style={{ textAlign: "center" }}>Our Team</h2>
+        <h2  className="hh" style={{ textAlign: "center" }}>Our Team</h2>
 
     <div className="row">
           
