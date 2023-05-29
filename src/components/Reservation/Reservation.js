@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "../../assets/img/reservation-Background.jpg";
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
+
 export default function Reservation() {
   return (
     <div className="section-with-background">
@@ -15,13 +17,13 @@ export default function Reservation() {
               <h1 class="mb-2 bread">Book a Table</h1>
               <p class="breadcrumbs">
                 <span class="mr-2">
-                  <a
-                    href="index.html"
+                  <Link
+                   to="/"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Home
                     <IoIosArrowForward size={15} color="black" />
-                  </a>
+                  </Link>
                 </span>
                 <span>
                   <a style={{ textDecoration: "none", color: "black" }}>

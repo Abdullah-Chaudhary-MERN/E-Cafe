@@ -5,9 +5,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import contactUs from '../activity/contactUs/contactUs'
 // import register from '../activity/Register/register'
 import NavBar from '../NavBar/NavBar'
+// import NavBar from '../Admin/NavBarA'
 import Header from '../Header/Header'
 import Reservation from '../Reservation/Reservation';
-import HeroSection from '../HeroSection/HeroSection'
+
 
 export default function Routing() {
   return (
@@ -17,6 +18,7 @@ export default function Routing() {
         <Routes>
             <Route exact path={'/'} Component = {Header} />
             <Route exact path={'/Reservation'} Component={Reservation}/>
+
         </Routes>
       </BrowserRouter>
     </div>

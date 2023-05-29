@@ -1,83 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/img/hLogo.png";
-import "../../index.css";
+import "../NavBar/navbar.css";
 import { Link } from "react-router-dom";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+
 export default function NavBar() {
+  const [isOpen, setisOpen] = useState(false);
+  function handleClick() {
+    setisOpen(!isOpen);
+  }
   return (
-    <div >
+    <div>
       <header id="header" className="fixed-top d-flex align-items-cente">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-          <a href="index.html" className="logo me-auto me-lg-0">
+          <Link to="/" className="logo me-auto me-lg-0">
             <img src={logo} alt="" className="img-fluid" />
-          </a>
+          </Link>
           <nav id="navbar" className="navbar order-last order-lg-0">
             <ul>
               <li>
-              <Link to="/" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
                 </Link>
               </li>
               <li>
                 <a className="nav-link scrollto" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#menu">
                   Menu
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#specials">
-                  Specials
+                <a className="nav-link scrollto" href="#menu">
+                  About
                 </a>
-              </li>
-              <li>
-                <a className="nav-link scrollto" href="#gallery">
-                  Gallery
-                </a>
-              </li>
-              <li className="dropdown">
-                <a href="#">
-                  <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
-                </a>
-                <ul>
-                  <li>
-                    <a href="#">Drop Down 1</a>
-                  </li>
-                  <li className="dropdown">
-                    <a href="#">
-                      <span>Deep Drop Down</span>{" "}
-                      <i className="bi bi-chevron-right"></i>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">Deep Drop Down 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 2</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 3</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 5</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 3</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 4</a>
-                  </li>
-                </ul>
               </li>
               <li>
                 <a className="nav-link scrollto" href="#contact">
@@ -85,15 +39,52 @@ export default function NavBar() {
                 </a>
               </li>
             </ul>
-            <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
-          <Link to="/Reservation" 
-            href="#book-a-table"
+          <Link
+            to="/Reservation"
             className="book-a-table-btn scrollto d-none d-lg-flex"
           >
             Book a table
           </Link>
         </div>
+        <div onClick={handleClick} className="text-white mobile-nav-bar-button">
+          {isOpen ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        </div>
+        {isOpen ? (
+          <div>
+            <section className="mobile-nav-bar-code">
+              <nav>
+                <ul>
+                  <li>
+                    <Link to="/" className="nav-link">
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <a className="nav-link scrollto" href="#about">
+                      Menu
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link scrollto" href="#menu">
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link scrollto" href="#contact">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <Link to="/Reservation" className="book-a-table-btn">
+                Book a table
+              </Link>
+            </section>
+          </div>
+        ) : (
+          <div></div>
+        )}
       </header>
     </div>
   );

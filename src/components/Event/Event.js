@@ -5,12 +5,12 @@ import { faBirthdayCake,faGift, faGlassCheers, faCalendarCheck, faUsers ,faRunni
 export default function Event() {
   return (
     <div>
-      <div class="service_area">
+      <div class="service_area bg-event">
         <div class="container">
           <div class="row">
             <div class="col-xl-12">
               <div class="section_title ">
-                <h1 style={{fontSize: "50px"}}>Our Services</h1>
+                <h1 style={{fontSize: "60px"}}>Our Services</h1>
                 <p>
                   inappropriate behavior is often laughed off as “boys will be
                   boys,” women face higher conduct standards <br /> especially
@@ -25,10 +25,9 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faBirthdayCake}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Birthday Catering</h4>
+                <h4 className="card-title">Birthday Catering</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Celebrate with our exceptional birthday catering services. Customized menus, professional service, and unforgettable experiences. Contact us today for an extraordinary celebration.
                 </p>
               </div>
             </div>
@@ -37,10 +36,9 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faGift}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Wedding Service</h4>
+                <h4 className="card-title">Wedding Service</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Experience our impeccable wedding catering services, creating unforgettable culinary moments for your special day. Trust us to deliver exceptional flavors and professional service.
                 </p>
               </div>
             </div>
@@ -49,10 +47,9 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faGlassCheers}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Party Catering</h4>
+                <h4 className="card-title">Party Catering</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elevate your party with our exceptional catering services, delivering delectable flavors and professional service to make your event unforgettable. Trust us to deliver professional service.
                 </p>
               </div>
             </div>
@@ -61,7 +58,7 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faCalendarCheck}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Event Catering</h4>
+                <h4 className="card-title">Event Catering</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -73,7 +70,7 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faUsers}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Corporate Service</h4>
+                <h4 className="card-title">Corporate Service</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -85,7 +82,7 @@ export default function Event() {
                 <div class="service_icon">
                 <FontAwesomeIcon icon={faRunning}  size="4x" color="rgb(205,164,94)" className="custom-icon" />
                 </div>
-                <h4>Catering On Demand</h4>
+                <h4 className="card-title">Catering On Demand</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
