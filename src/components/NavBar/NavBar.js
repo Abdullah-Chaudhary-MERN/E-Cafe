@@ -24,9 +24,9 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#about">
+                <Link to='/Product' className="nav-link"  href="#about">
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
                 <a className="nav-link scrollto" href="#menu">
