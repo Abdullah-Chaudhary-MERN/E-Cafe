@@ -7,6 +7,13 @@ import Cart from "../CheckOut/Cart"
 import Reservation from '../Reservation/Reservation';
 import AboutUs from "../AboutUs/AboutUs"
 
+import Product from '../Menu/Product';
+import Colddrink from '../Menu/colddrink';
+import Desserts from '../Menu/Desserts';
+import Sandwich from '../Menu/sandwich';
+import Coffee from '../Menu/coffee';
+import Tea from '../Menu/Tea';
+import Bakeryitams from '../Menu/bakeryitams';
 export default function Routing() {
   return (
     <div>
@@ -18,6 +25,19 @@ export default function Routing() {
             <Route exact path={'/Reservation'} Component={Reservation}/>
             <Route exact path={'/Cart'} Component={Cart}/>
             <Route exact path={'/AboutUs'} Component={AboutUs}/>
+            <Route exact path='/' Component = {Header} />
+            <Route exact path='/Reservation' Component={Reservation}/>
+            <Route path='/Product' Component={Product}>
+            <Route index Component={Coffee}/>
+            <Route path='Coffee' Component={Coffee} />
+            <Route path='Tea' Component={Tea} />
+            <Route path='BakeryItams' Component={Bakeryitams} />
+            <Route path='ColdBeverages' Component={Colddrink} />
+            <Route path='Sandwich' Component={Sandwich} />
+            <Route path='Desserts' Component={Desserts} />
+
+          </Route>
+            
 
         </Routes>
       </BrowserRouter>
