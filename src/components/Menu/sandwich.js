@@ -18,6 +18,8 @@ export default function Sandwich() {
     }, []);
   
     return (
+      <div>
+      <p className='para'>Our Sandwhichs & Burgers Menu</p>
       <div className="main_container">
         {value.map(item => (
           <div className="product-card" key={item.id}>
@@ -29,6 +31,7 @@ export default function Sandwich() {
 
           </div>
     ))}
+      </div>
       </div>
     );
  

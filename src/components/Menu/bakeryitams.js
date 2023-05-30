@@ -15,6 +15,9 @@ export default function Bakeryitams() {
     }, []);
   
     return (
+      <div>
+      <p className='para'>Our Bakery Itams Menu</p>
+
       <div className="main_container">
         {valu.map(item => (
           <div className="product-card" key={item.id}>
@@ -25,6 +28,7 @@ export default function Bakeryitams() {
             <Link to = "/Cart" className="product-button">Add to Cart</Link>
           </div>
     ))}
+      </div>
       </div>
     );
 }

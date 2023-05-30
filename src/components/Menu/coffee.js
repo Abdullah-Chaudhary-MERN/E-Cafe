@@ -16,6 +16,9 @@ export default function Coffee() {
   }, []);
 
   return (
+    <div>
+    <p className='para'>Our Coffee Menu</p>
+
     <div className="main_container">
       {valu.map(item => (
         <div className="product-card" key={item.id}>
@@ -26,6 +29,7 @@ export default function Coffee() {
           <Link to = "/Cart" className="product-button">Add to Cart</Link>
         </div>
   ))}
+    </div>
     </div>
   );
 }

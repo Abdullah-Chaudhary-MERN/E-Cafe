@@ -17,6 +17,8 @@ export default function New() {
   }, []);
 
   return (
+    <div>
+    <p className='para'>Our Tea Menu</p>
     <div className="main_container">
       {valu.map(item => (
         <div className="product-card" key={item.id}>
@@ -28,6 +30,7 @@ export default function New() {
 
         </div>
   ))}
+    </div>
     </div>
   );
 }
