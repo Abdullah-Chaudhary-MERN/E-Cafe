@@ -52,7 +52,7 @@ export default function Cart() {
         </div>
         <div className="col-lg-7 col-md-7 text-lg-right text-left">
           <div className="site-btn btn-clear">Clear cart</div>
-          <div className="site-btn btn-line btn-update">Update Cart</div>
+          <div className="site-btn btn-line btn-update"><a>Update Cart</a></div>
         </div>
       </div>
     </div>
@@ -101,87 +101,6 @@ export default function Cart() {
       </div>
     </div>
   </div>
-
-  {/* Footer top section */}	
-  {/* <section className="footer-top-section home-footer">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-3 col-md-8 col-sm-12">
-          <div className="footer-widget about-widget">
-            <img src="img/logo.png" className="footer-logo" alt />
-            <p>Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis. Nullam fringilla faucibus urna, id dapibus erat iaculis ut. Integer ac sem.</p>
-            <div className="cards">
-              <img src={visa}  />
-              <img src={pic4} alt />
-              <img src={pic3} alt />
-              <img src={pic2} alt />
-              <img src={pic1} alt />
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6">
-          <div className="footer-widget">
-            <h6 className="fw-title">usefull Links</h6>
-            <ul>
-              <li><a href="#">Partners</a></li>
-              <li><a href="#">Bloggers</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Press</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6">
-          <div className="footer-widget">
-            <h6 className="fw-title">Sitemap</h6>
-            <ul>
-              <li><a href="#">Partners</a></li>
-              <li><a href="#">Bloggers</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Press</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6">
-          <div className="footer-widget">
-            <h6 className="fw-title">Shipping &amp; returns</h6>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Track Orders</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Shipping</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6">
-          <div className="footer-widget">
-            <h6 className="fw-title">Contact</h6>
-            <div className="text-box">
-              <p>Your Company Ltd </p>
-              <p>1481 Creekside Lane  Avila Beach, CA 93424, </p>
-              <p>+53 345 7953 32453</p>
-              <p>office@youremail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> */}
-  {/* Footer top section end */}	
-  {/* Footer section */}
-  {/* <footer className="footer-section">
-    <div className="container">
-      <p className="text-center text-md-end text-xl-start"> 
-        All Rights Reserved
-      </p>
-    </div>
-  </footer> */}
-  {/* Footer section end */}
-
-
     </>
   )
 }

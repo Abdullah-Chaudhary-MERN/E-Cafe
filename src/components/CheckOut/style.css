@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	background-color: black !important	;
+	background-color: #7a7a79 !important	;
 	color: white !important;
   }
   
@@ -15,7 +15,7 @@ body {
 
   .pro{
 	color: white !important;
-	background-color: black !important	;
+	background-color: #7a7a79 !important	;
 
   }
   .row {
@@ -26,14 +26,16 @@ body {
 	position: relative;
 	
   }
-  
+  .nav-switch{
+	margin-top: 150px;
+  }
   .row .card{
 	box-shadow: 0 4px 8px 0 rgba(235, 228, 228, 228);
 	margin: 20px;
 	width: 20%;
 	flex-wrap: wrap;
 	padding: 60px;
-	background-color: black !important	;
+	background-color: #7a7a79 !important	;
 	/* height: 50px; */
 	/* border: 1px solid red; */
 	
@@ -44,7 +46,7 @@ body {
 	height: 45px;
 	margin-left: 20px;
 	color: white !important;
-	background-color: black !important	;
+	background-color: #7a7a79 !important	;
     
 }
   
@@ -87,7 +89,7 @@ body {
 	display: inline-block;
 	padding: 8px;
 	color: white;
-	background-color: #000;
+	background-color: #7a7a79;
 	text-align: center;
 	cursor: pointer;
 	
@@ -138,7 +140,7 @@ body {
 .cart-table .product-th {
 	text-align: left;
 	color: white;
-	background-color: #000;
+	background-color: #7a7a79;
 }
 
 .cart-table .product-col {
@@ -176,7 +178,7 @@ body {
 	padding-right: 3px;
 	margin: 0 auto;
     color: white;
-	background-color: #000;	
+	background-color: #7a7a79;	
 }
 
 .cart-table .quy-input span {
@@ -203,7 +205,7 @@ body {
 .cart-table .total-th {
 	text-align: right;
 	color: white !important;
-	background-color: black !important	;
+	background-color: #7a7a79 !important	;
 }
 
 
@@ -228,17 +230,20 @@ body {
 }
 
 .cart-buttons .btn-update {
-	min-width: 178px;
-	padding: 19px 30px;
+	margin-top: 5px;
+	/* min-width: 150px !important; */
+	width: 620px;
+	padding: 15px 30px;
+
 	font-size: 16px;
-	background:black;
+	background: #B09D81;
 	
 }
 
 .card-warp {
 	max-width: 1284px;
 	margin: 0 auto;
-	background:black;
+	background:#7a7a79;
 	padding: 65px 0;
 }
 
@@ -303,9 +308,9 @@ body {
 }
 
 .txt{
-	background-color: #000 !important;
-	color: white;
-	border:2px solid whitesmoke ;
+	background-color: white !important;
+	color: black;
+	border:2px solid white !important; ;
 }
 .cupon-input input {
 	width: 100%;
@@ -324,6 +329,7 @@ body {
 	min-width: 122px;
 	background: #b09d81;
 	color: white;
+	border: 1px solid white !important;
 	/* background-color: #000; */
 }
 
@@ -343,7 +349,7 @@ body {
 }
 
 .cart-total-card {
-	background:black;
+	background:#7a7a79;
 	list-style: none;
 	padding: 15px 7px 77px;
 }
@@ -351,7 +357,7 @@ body {
 .cart-total-card li {
 	display: block;
 	font-size: 14px;
-	color: #414141;
+	color: white;
 	padding: 15px 36px;
 	margin-bottom: 15px;
 }
@@ -361,9 +367,5 @@ body {
 }
 
 .cart-total-card li.total {
-	background: black;
+	background: #7a7a79;
 }
-
-/*------------------
-  Checkout page
----------------------*/

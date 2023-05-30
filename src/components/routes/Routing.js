@@ -6,7 +6,6 @@ import Home from "../Home/index"
 import Cart from "../CheckOut/Cart"
 import Reservation from '../Reservation/Reservation';
 import AboutUs from "../AboutUs/AboutUs"
-
 import Product from '../Menu/Product';
 import Colddrink from '../Menu/colddrink';
 import Desserts from '../Menu/Desserts';
