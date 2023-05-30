@@ -13,6 +13,8 @@ import Sandwich from '../Menu/sandwich';
 import Coffee from '../Menu/coffee';
 import Tea from '../Menu/Tea';
 import Bakeryitams from '../Menu/bakeryitams';
+import SignUp from "../login/signUp"
+import logIn from "../login/logIn"
 export default function Routing() {
   return (
     <div>
@@ -24,7 +26,8 @@ export default function Routing() {
             <Route exact path={'/Reservation'} Component={Reservation}/>
             <Route exact path={'/Cart'} Component={Cart}/>
             <Route exact path={'/AboutUs'} Component={AboutUs}/>
-            <Route exact path='/' Component = {Header} />
+            <Route exact path='/SignUp' Component = {SignUp} />
+            <Route exact path='/logIn' Component = {logIn} />
             <Route exact path='/Reservation' Component={Reservation}/>
             <Route path='/Product' Component={Product}>
             <Route index Component={Coffee}/>

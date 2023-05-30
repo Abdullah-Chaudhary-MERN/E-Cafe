@@ -44,8 +44,21 @@ export default function NavBar() {
           <Link
             to="/Reservation"
             className="book-a-table-btn scrollto d-none d-lg-flex"
+            style={{marginLeft:"150px"}}
           >
             Book a table
+          </Link>
+          <Link
+            to="/SignUp"
+            className="book-a-table-btn scrollto d-none d-lg-flex"
+          >
+            SignUp
+          </Link>
+          <Link
+            to="/LogIn"
+            className="book-a-table-btn scrollto d-none d-lg-flex"
+          >
+            LogIn
           </Link>
         </div>
         <div onClick={handleClick} className="text-white mobile-nav-bar-button">
