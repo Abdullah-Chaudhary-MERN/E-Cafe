@@ -3,6 +3,8 @@ body {
 	margin: 0;
 	background-color: #7a7a79 !important	;
 	color: white !important;
+	background: #0c0b09;
+
   }
   
   html {
@@ -51,10 +53,15 @@ body {
 }
   
   .about-section{
-	padding: 50px;
 	text-align: center;
+	background-image: url("https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #474e5d;
 	color: white;
+	padding: 160px;
+
+
   }
   .top{
 	margin-top: 150px;
@@ -70,7 +77,8 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 40px;
-	background-color: #474e5d;
+	background-color:#252422;
+
   }
   
   .container::after, .row::after {
@@ -98,6 +106,7 @@ body {
   .button:hover {
 	background-color: #555;
   }
+
   
   @media screen and (max-width: 650px) {
 	.column {

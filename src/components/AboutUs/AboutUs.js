@@ -58,7 +58,7 @@ export default function AboutUs() {
 
 
          
-      <div className="card" style={{width: "18 rem "}}>
+      <div className="card card_container" style={{width: "18 rem"}}>
         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">MOHAMMAD ABDULLAH</h5>
