@@ -1,13 +1,30 @@
 import React from "react";
 import "../CheckOut/style.css";
+import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export default function AboutUs() {
   return (
     <>
       <div>
+        
         <div className="about-section">
           <h1 className="top">About Us Page</h1>
-          <p>who we are and what we do.</p>
+          <span class="mr-2">
+                  <Link
+                    to="/"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Home
+                    <IoIosArrowForward size={15} color="white" />
+                  </Link>
+                </span>
+                <span>
+                  <a style={{ textDecoration: "none", color: "white" }}>
+                    About Us
+                    <IoIosArrowForward size={15} color="white" />
+                  </a>
+                </span>
         </div>
         <div class="container2">
           <h2>About Us</h2>
