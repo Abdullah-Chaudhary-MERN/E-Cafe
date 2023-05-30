@@ -17,6 +17,8 @@ export default function Desserts() {
   }, []);
 
   return (
+    <div>
+    <p className='para'>Our Desserts Menu</p>
     <div className="main_container">
       {valu.map(item => (
         <div className="product-card" key={item.id}>
@@ -28,6 +30,7 @@ export default function Desserts() {
 
         </div>
   ))}
+    </div>
     </div>
   );
 

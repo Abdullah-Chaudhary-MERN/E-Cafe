@@ -5,6 +5,7 @@ import  '../../App.css';
 
 export default function Product() {
   return (
+
     <div className='main_body'>
     <div class="section-title">
           <h2>Menu</h2>
