@@ -1,8 +1,7 @@
 
 .main_body{
-  margin-top: 15%;
+  margin: 0;
 }
-
 
 /*..........primary menu.................*/
 
@@ -55,6 +54,7 @@
   margin: 0 auto 0 auto;
   list-style: none;
   border-radius: 50px;
+  margin-top: 2%;
 
 }
 
@@ -365,10 +365,14 @@
 /*..nav products..*/
 
 .section-title {
+  margin-top: -50px;
   align-items: center;
   text-align: center;
-  margin-top: 5%;
   padding-bottom: 40px;
+  background-image: url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
 }
 
 .section-title h2 {
@@ -388,6 +392,6 @@
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: white;
 }
 

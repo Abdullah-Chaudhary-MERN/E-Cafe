@@ -118,6 +118,9 @@ body {
 .column{
 	display: flex;
 }
+.cart-page{
+	margin-top: 20%;
+}
 
 
 
@@ -252,7 +255,7 @@ body {
 .card-warp {
 	max-width: 1284px;
 	margin: 0 auto;
-	background:#7a7a79;
+	background:#252422;
 	padding: 65px 0;
 }
 
