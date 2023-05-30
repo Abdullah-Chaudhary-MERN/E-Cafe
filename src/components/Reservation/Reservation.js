@@ -21,16 +21,16 @@ export default function Reservation() {
                 <span class="mr-2">
                   <Link
                     to="/"
-                    style={{ textDecoration: "none", color: "black" }}
+                    style={{ textDecoration: "none", color: "white" }}
                   >
                     Home
-                    <IoIosArrowForward size={15} color="black" />
+                    <IoIosArrowForward size={15} color="white" />
                   </Link>
                 </span>
                 <span>
-                  <a style={{ textDecoration: "none", color: "black" }}>
+                  <a style={{ textDecoration: "none", color: "white" }}>
                     Reservation
-                    <IoIosArrowForward size={15} color="black" />
+                    <IoIosArrowForward size={15} color="white" />
                   </a>
                 </span>
               </p>

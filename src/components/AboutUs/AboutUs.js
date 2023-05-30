@@ -1,6 +1,6 @@
 import React from "react";
 import "../CheckOut/style.css";
-import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function AboutUs() {

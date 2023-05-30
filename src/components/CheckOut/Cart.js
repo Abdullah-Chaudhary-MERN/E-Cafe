@@ -1,14 +1,33 @@
 import React from 'react';
 // import bagg from './Asset/bag.jpg';
 import "./style.css";
+import { IoIosArrowForward } from "react-icons/io";
+import {Link} from 'react-router-dom'
+
 export default function Cart() {
   return (
     <>
-        	
+        	<section className='sec'>
+          <h1>Menu</h1>
+          <span class="mr-2">
+                  <Link
+                    to="/"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Home
+                    <IoIosArrowForward size={15} color="white" />
+                  </Link>
+                </span>
+                <span>
+                  <a style={{ textDecoration: "none", color: "white" }}>
+                    Menu
+                    <IoIosArrowForward size={15} color="white" />
+                  </a>
+                </span>
+          </section>
     <div>
       </div>
       <div className="nav-switch">
-        <i className="fa fa-bars" />
       </div>
       
   <div className="page-area cart-page spad">

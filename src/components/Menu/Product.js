@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link,Outlet} from 'react-router-dom'
+import { IoIosArrowForward } from "react-icons/io";
 import  '../../App.css';
 
 
@@ -7,8 +8,22 @@ export default function Product() {
   return (
     <div className='main_body'>
     <div class="section-title">
-          <h2>Menu</h2>
-          <p>Check Our Tasty Menu</p>
+          <h1>Menu</h1>
+          <span class="mr-2">
+                  <Link
+                    to="/"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Home
+                    <IoIosArrowForward size={15} color="white" />
+                  </Link>
+                </span>
+                <span>
+                  <a style={{ textDecoration: "none", color: "white" }}>
+                    Menu
+                    <IoIosArrowForward size={15} color="white" />
+                  </a>
+                </span>
         </div>
     <nav className='menu_product'>
       <ul>

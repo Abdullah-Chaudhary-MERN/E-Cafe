@@ -42,7 +42,9 @@ body {
 	/* border: 1px solid red; */
 	
   }
-
+.card-title{
+	color: white;
+}
 .card img {
 	width: 45px;
 	height: 45px;
@@ -125,6 +127,7 @@ body {
 
 
 .cart-table {
+	margin-top: -150px;
 	margin-bottom: 54px;
 	overflow-y: auto;
 }
@@ -309,11 +312,6 @@ body {
 	position: absolute;
 }
 
-.shipping-chooes input[type=radio]:checked+label:after {
-	background: #e95a5a;
-	border: 2px solid #e95a5a;
-}
-
 .cupon-input {
 	position: relative;
     
@@ -361,7 +359,7 @@ body {
 }
 
 .cart-total-card {
-	background:#7a7a79;
+	background:#252422;
 	list-style: none;
 	padding: 15px 7px 77px;
 }
@@ -379,5 +377,10 @@ body {
 }
 
 .cart-total-card li.total {
-	background: #7a7a79;
+	background: #252422;
+}
+.sec{
+	margin-top: 150px;
+	margin-left: 550px;
+	display: inline-block;
 }
