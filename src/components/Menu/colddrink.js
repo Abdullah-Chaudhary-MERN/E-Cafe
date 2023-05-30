@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import  '../../App.css';
+import { Link } from "react-router-dom";
+
 
 export default function Colddrink() {
   const [valu, setValue] = useState([]);
@@ -22,7 +24,8 @@ export default function Colddrink() {
           <h2 className="product-title">{item.title}</h2>
           <p className="product-price">{item.price}</p>
           <p className="product-description">{item.description}</p>
-          <a href="#" className="product-button">Add to Cart</a>
+          <Link to = "/Cart" className="product-button">Add to Cart</Link>
+
         </div>
   ))}
     </div>
