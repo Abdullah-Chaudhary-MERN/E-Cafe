@@ -34,11 +34,11 @@ export default function NavBar() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a className="nav-link scrollto" href="#contact">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <Link
@@ -52,13 +52,13 @@ export default function NavBar() {
             to="/SignUp"
             className="book-a-table-btn scrollto d-none d-lg-flex"
           >
-            SignUp
+           SignUp
           </Link>
           <Link
             to="/LogIn"
             className="book-a-table-btn scrollto d-none d-lg-flex"
           >
-            LogIn
+           Login
           </Link>
         </div>
         <div onClick={handleClick} className="text-white mobile-nav-bar-button">

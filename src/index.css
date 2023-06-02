@@ -200,7 +200,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#ec9600 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -279,6 +279,8 @@ h6 {
 .card-title{
   color: rgb(129, 128, 128);
 }
+
+
 
 /* line 8, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
 .service_area .single_service {
@@ -428,6 +430,7 @@ body {
   font-weight: 400;
   text-transform: lowercase;
   font-size: 1.5rem;
+  color: white;
 }
 
 .footer__addr h2 {
@@ -438,7 +441,20 @@ body {
 
 .nav__title {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 25px !important;
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .row{
+    /* flex-wrap: wrap; */
+margin: auto;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  /* .row{
+    margin-top: 28%;
+  } */
+
 }
 
 .footer address {
@@ -447,18 +463,24 @@ body {
 }
 
 .footer__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 36px;
-  max-width: max-content;
-  background-color: rgb(33, 33, 33, 0.07);
-  border-radius: 100px;
-  color: #2f2f2f;
-  line-height: 0;
-  margin: 0.6em 0;
-  font-size: 1rem;
-  padding: 0 1.3em;
+  margin-bottom: 2%;
+  border: 2px solid #cda45e;
+  color: #aaaaaa;
+
+  border-radius: 50px;
+  padding: 8px 25px;
+  text-transform: uppercase;
+
+  display: inline-block;
+
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.footer__btn:hover{
+    background: #cda45e;
+    color: #fff;
 }
 
 .footer ul {
@@ -485,7 +507,7 @@ body {
 }
 
 .nav__ul a {
-  color: #999;
+  color: white !important;
 }
 
 .nav__ul--extra {
@@ -521,6 +543,7 @@ body {
   
   .nav__item--extra {
     flex-grow: 2;
+    color: white;
   }
   .section-with-background{
     background-color: #1a1814 !important;
@@ -584,4 +607,10 @@ label {
   font-size: 14px;
   font-weight: 600;
   color: rgb(34, 34, 34);
+}
+.footer p {
+  color: white !important;
+}
+.card_container{
+  background-color: #0c0b09 !important;
 }

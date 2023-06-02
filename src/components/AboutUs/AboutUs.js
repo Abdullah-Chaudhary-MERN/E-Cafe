@@ -70,25 +70,19 @@ export default function AboutUs() {
         </div>
         <h2  className="hh" style={{ textAlign: "center" }}>Our Team</h2>
 
-    <div className="row">
-          
-
-
-         
-      <div className="card card_container" style={{width: "18 rem"}}>
+    <div className="row ">
+      <div className="card card_container" style={{width: "18 rem" }}>
         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">MOHAMMAD ABDULLAH</h5>
           <p className="card-text">
             SOFTWARE ENGINEER
           </p>
-          <a href="#" className="btn btn-primary">
+          <a  className="btn btn-primary">
             Contact Me
           </a>
         </div>
-      </div>
-
-          
+      </div>  
       <div className="card" style={{width: "18 rem "}}>
         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" className="card-img-top" alt="..." />
         <div className="card-body">
@@ -100,9 +94,7 @@ export default function AboutUs() {
             Contact Me  
           </a>
         </div>
-      </div>
-
-          
+      </div> 
       <div className="card" style={{width: "18 rem "}}>
         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" className="card-img-top" alt="..." />
         <div className="card-body">
@@ -115,8 +107,6 @@ export default function AboutUs() {
           </a>
         </div>
       </div>
-
-
       <div className="card" style={{width: "18 rem "}}>
         <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" className="card-img-top" alt="..." />
         <div className="card-body">
